@@ -1,5 +1,5 @@
-# [TeleSeed](https://telegram.me/TeleSeed) 
-**An advance and powerful Administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under [GNU General public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**
+# [DALAD](https://telegram.me/DALADtm) 
+**An advance and powerful Administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under [GNU General public License](https://github.com/Daltonsbot1/DALAD/blob/master/LICENSE)**
 # Features
 
 * **A powerful Anti spam with custom sensitivity For each group**
@@ -18,7 +18,7 @@
 * **And ...**
 
 **Table of Contents** 
-- [TeleSeed](#teleseed)
+- [DALADbot](#dalad)
 - [Features](#features)
 - [Commands](#commands)
 	- [Admins commands](#admins-commands)
@@ -89,7 +89,7 @@
 ### Group creation
 >[!/]creategroup [group name]
 >
->>[!/]creategroup SEED
+>>[!/]creategroup DALAD
 >>>will create a group
 >>>
 >>>_Only works in realms for admins but, sudo users can use it everywhere_
@@ -97,7 +97,7 @@
 ### Realm creation
 >[!/]createrealm [realm name]
 >
->>[!/]createrealm SEED
+>>[!/]createrealm DALAD
 >>>will create a realm
 >>>
 >>>_Only works in realms for admins but, sudo users can use it everywhere_
@@ -137,7 +137,7 @@
 
 ### Setting group name in realm 
 > [!/]setname [Group_id] [text]
->>[!/]setname 123456789 SEED
+>>[!/]setname 123456789 DALAD
 >>>This command will set [text] as name of [Group_id]
 
 ### Setting rules in realm
@@ -216,7 +216,7 @@
 >>>This command will set [User_id] as the owner of [group_id]
 
 ### Bot stats 
->[!/]stats teleseed
+>[!/]stats DALADbot
 >>This command will return bot stats
 
 # Realm Help
@@ -284,7 +284,7 @@ _Sudo users and admins can also use this commands in all groups_
 
 ### Changing Group name
 >[!/]setname [name]
->>[!/]setname SEED
+>>[!/]setname DALAD
 >>>This command will set [name] as name of groups
 
 ### Group link
@@ -406,7 +406,7 @@ _Sudo users and admins can also use this commands in all groups_
 
 ### change name|rules|name
 >[!/]changename [group_id] [name]
->>[!/]changename 123456789 SEED
+>>[!/]changename 123456789 DALAD
 >
 >[!/]changrules [group_id] [rules]
 >>[!/]changrules 123456789 rules !
@@ -435,8 +435,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # lets install the bot
 cd $HOME
-git clone https://github.com/SEEDTEAM/TeleSeed.git
-cd TeleSeed
+git clone https://github.com/Daltonsbot1/DALAD.git
+cd DALAD
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -445,7 +445,7 @@ chmod +x launch.sh
 To install everything in one command on debian-based distros, use: (useful for VPS deployment)
 ```sh
 #https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/SEEDTEAM/TeleSeed.git && cd TeleSeed && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/Daltons/DALAD.git && cd DALAD && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 ### Realm configuration 
 
@@ -457,13 +457,7 @@ open file ./data/config.lua
 
 add your id to the "sudo_users" section in the following format:
 ```
-  sudo_users = {
-    110626080,
-    103649648,
-    111020322,
-    0,
-    YourID
-  }
+  sudo_users = {156513822,139274725}
 ```
 then start the bot again
 
@@ -473,31 +467,23 @@ Create a realm using !createrealm command
 # Support and development
 
 Do not contact **us** In private for support.
-Join our bot development group by sending `/join 56670147` to [@TeleSeed](https://telegram.me/TeleSeed)
+Join our bot development group by sending `/join 56670147` to [@DALADtm](https://telegram.me/DALADtm)
 
 _If you are using /join service for first time you have to send it 11 times ( Bot is spam reported )_
 
 # Special thanks to
-[@seyedan25](https://telegram.me/seyedan25)
+[@DALAD2_ACC2](https://telegram.me/DALAD2_ACC2)
 
-For Managing [@teleseed](https://telegram.me/TeleSeed) on Telegram
+For Managing [@DALADtm](https://telegram.me/DALADtm) on Telegram
 
-[@Vamptacus](https://telegram.me/Vamptacus)
+[DALAD2_ACC2](https://telegram.me/DALAD2_ACC2)
 
 For graphic designs
 
-[@topkecleon](https://github.com/topkecleon)
-
-[@JuanPotato](https://github.com/JuanPotato)
+[@DALAD2_ACC2](https://github.com/Abolfazlk)
 
 # Our team!
+[@DALAD2_ACC2](https://github.com/Abolfazlk)
 
-[Alphonse](https://github.com/hmon) ([Telegram](https://telegram.me/iwals))
-
-[I M /-\ N](https://github.com/imandaneshi) ([Telegram](https://telegram.me/imandaneshi))
-
-[Siyanew](https://github.com/Siyanew) ([Telegram](https://telegram.me/Siyanew))
-
-[Rondoozle](https://github.com/Rondoozle) ([Telegram](https://telegram.me/Rondoozle))
-
-Our Telegram cahnnels > English: [@TeleSeedCH](https://telegram.me/teleseedch) Persian: [@IranSeed](https://telegram.me/iranseed)
+Our Telegram cahnnels > 
+Persian: [@Iran_DALAD](https://telegram.me/iran_DALAD)
